@@ -1,0 +1,55 @@
+Diagramas de casos de uso.
+
+Quien lo usa y para que.
+Quien puede hacer qué con el sistema?
+
+
+
+Negocio.
+Lo que el sistema le ofrece al cliente (solicitar reservas, aprobar o rechazar solicitud)
+
+
+
+
+Sistema:
+Función interna que nadie de fuera ve.
+(Enviar recordatorios, Liberar reservas no ocupadas, crear cuentas de empleado)
+
+Actores
+
+Primario.
+Inicia el caso de uso porque tiene un objetivo. Interactúa con el sistema y se beneficia del resultado.
+
+Secundario
+Ayuda al primario a lograr su objetivo.
+No le interesa el resultado en si
+
+
+
+
+
+
+Un actor es un ROL, no una persona concreta.
+
+
+
+
+Asociación.
+Conecta casos con actores
+
+Generalización.
+(Gestionar reservas-Cancelar reservas/Consultar reservas)
+
+
+Include.
+
+Un caso de uso que invoca a otro cada vez que se ejecuta.
+
+ex. Solicitar reserva <<include>> Verificar disponibilidad (se lee como "usa")((Solicitar reserva usa Verificar disponibilidad)
+
+Extend.
+Comportamiento OPCIONAL que se agrega a otro caso cuando se cumple una condición. La flecha punteada de la extensión hacia el caso base.
+
+
+Dependencia. Cuando un elemento necesita a otro para funcionar bien.
+(No se puede generar reporte de ventas sin ventas)
