@@ -1,0 +1,55 @@
+Diagramas de clases.
+
+Son el plano estático del sistema: que tipos de cosas existen, que datos guardan y que van a hacer.
+
+
+Se sacan de la hoja de requisitos SRS
+
+Sustantivos -> Clases
+
+Datos del sustantivo -> Atributos
+
+Verbos -> Métodos
+
+
+
+Estructura de la clase 
+Nombre
+Atributos
+Métodos
+
+
+
+Visibilidad:
+(+)Publico
+(-)Privado
+(#)Protegido
+()Paquete
+
+
+Clases especiales
+
+Abstracta
+Su nombre está en cursiva
+
+
+Enumeración
+Lista cerrada de valores posibles {
+(EstadoReserva)
+SOLCITADA
+APROBADA
+RECHAZADA
+}
+
+
+Asociación
+Las clases están conectadas, una linea continua que indica en que dirección se lee (Usuario solicita Reserva)
+
+Multiplicidad
+
+Tenemos que especificar cuantos de uno puede tener del otro (un usuario puede tener de 0 a muchas reservas, pero las reservas pueden tener un solo usuario)
+
+
+Agregación
+un TODO que agrupa partes que pueden vivir sin él. Un laboratorio tiene equipos, si el laboratorio se cierra, los equipos siguen existiendo y se mueven a otro
+
